@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Proyectoo-Experiencias</string>
+
+    <string name="labelUsuario">Ingresa tu Usuario</string>
+    <string name="labelContrasenia">Ingresa tu Contraseña</string>
+    <string name="labelNombreAnimal">Ingresa Nombre del Animal</string>
+    <string name="labelNombresDueño">Ingresa Nombre del Dueño</string>
+    <string name="labelEdadAnimal">Ingresa Edad</string>
+    <string name="labelPesoAnimal">Ingresa Peso</string>
+    <string name="labelInformacionAnimal">Ingresa Datos del Animal</string>
+    <string name="labelGeneroAnimal">Ingresa Genero del Animal</string>
+    <string name="labelTipoAnimal">Ingresa Tipo de Animal</string>
+    <string-array name="simple_items">
+        <item>Macho</item>
+        <item>Hembra</item>
+    </string-array>
+    <string-array name="tipo_items">
+        <item>Gato</item>
+        <item>Perro</item>
+        <item>Uron</item>
+    </string-array>
+    //Clientes
+    <string name="labelNombreClientes">Ingresa Nombre del Cliente</string>
+    <string name="labelApellidosClientes">Ingresa Apellidos del Cliente</string>
+    <string name="labelDireccionClientes">Ingresa la Direccion del Cliente</string>
+    <string name="labelDNIClientes">Ingresa el DNI del Cliente</string>
+    <string name="labelGeneroClientes">Ingresa Genero del Cliente</string>
+    <string-array name="clientes_items">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    //Doctores
+    <string name="labelNombreDoctor">Ingresa Nombre del Doctor</string>
+    <string name="labelApellidosDoctor">Ingresa Apellidos del Doctor</string>
+    <string name="labelDNI">Ingresa DNI del Doctor</string>
+    <string name="labelGeneroDoctor">Ingresa Genero del Doctor</string>
+    <string name="labelExperiencia">Ingresa Experiencia del Doctor</string>
+    <string name="labelEspecialidad">Ingresa Especialidad del Doctor</string>
+    <string-array name="item_experiencia">
+        <item>1 año</item>
+        <item>+4 años</item>
+        <item>+10 años</item>
+    </string-array>
+
+    //
+    <string name="labelcolorPerro">Ingresa Color del Animal</string>
+    <string-array name="label_color">
+        <item>Marron</item>
+        <item>Negro</item>
+        <item>Blanco</item>
+        <item>Gris</item>
+        <item>Naranja</item>
+        <item>Atigrado</item>
+        <item>Manchado</item>
+    </string-array>
+
+    //Tipo
+    <string name="labelTiposAnimal">Ingresa Tipo de Animal</string>
+    <string-array name="tipoAnimal">
+        <item>Perros</item>
+        <item>Gatos</item>
+        <item>Hamster</item>
+        <item>Cuyes</item>
+        <item>Gallinas</item>
+    </string-array>
+
+    //Raza
+    <string name="labelTipoRaza">Ingresa Raza del Animal</string>
+    <string-array name="tipoRazaAnimal">
+        <item>Pitbull</item>
+        <item>Labrador</item>
+        <item>Cruzados</item>
+        <item>BullDog</item>
+        <item>Perro Aleman</item>
+    </string-array>
+    <string-array name="item_doctores">
+        <item>Exoticos</item>
+        <item>Gatos</item>
+        <item>Perros</item>
+    </string-array>
+
+    //Especialista
+
+    <string-array name="item_especialidadMedico">
+        <item>Analisis Clinicos</item>
+        <item>Medicina General</item>
+        <item>Oftalmologia</item>
+    </string-array>
+
+
+    //Clientes
+    <string name="labelGeneroCliente">Ingresa Genero del Cliente</string>
+    <string name="labelCorreoCliente">Ingresa Correo del Cliente</string>
+    <string name="labelNumeroCliente">Ingresa Numero de Celular del Cliente</string>
+    <string name="labelDireccionCliente">Ingresa Direccion del Cliente</string>
+
+    //Listar por todo los dni
+    <string-array name="spnDniListado">
+
+    </string-array>
+
+    <string name="labelPropietario">Ingresa Nombre del Dueño</string>
+    <string name="labelApellido">Ingresa Apellido del Dueño</string>
+    <string name="labelDni">Ingresa DNI del Dueño</string>
+    <string name="labelTelefono">Ingresa Telefono del Dueño</string>
+    <string name="labelDireccionDuenio">Ingresa Direccion del Dueño</string>
+    <string name="labelCorreoDuenio">Ingresa Correo del Dueño</string>
+
+    //Historial Veterinario - Animal
+
+    <string name="labelHistorialNombreAnimal">Ingresa Nombre del Animal</string>
+    <string name="labelRazaAnimal">Ingresa Raza del Animal</string>
+    <string name="labelColorAnimal">Ingresa Color del Animal</string>
+    <string name="labelEspecieAnimal">Ingresa Especie del Animal</string>
+    <string name="labelHistorialPesoAnimal">Ingresa el Peso del Animal</string>
+
+    <string-array name="item_duenio_historial"></string-array>
+    <string-array name="item_animal_historial"></string-array>
+    <string-array name="item_medico_dni_historial"></string-array>
+
+
+
+    //
+    <string name="labelCorreo">Ingrersa Correo del Medico</string>
+    <string name="labelTelefonoMed">Ingrersa Telefono del Medico</string>
+
+    <string name="labelGeneroMed">Ingrersa Genero del Medico</string>
+
+    <string-array name="genero_items">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+
+    <string name="labelDniMedico">Ingresa DNI del Medico</string>
+
+    <string name="labelDiagnostico">Ingresa Diagnostico del Animal</string>
+
+    <string name="labelTratamientoHistorial">Ingresa Tratamiento del Animal</string>
+
+    <string name="labelVacunasAplicadas">Ingresa Vacunas Aplicadas del Animal</string>
+
+    <string name="laveObservacionesAnimal">Ingresa Observaciones del Animal</string>
+
+
+
+</resources>

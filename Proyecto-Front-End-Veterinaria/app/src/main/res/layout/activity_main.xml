@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#181E27"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="642dp"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="1dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:padding="10dp"
+            android:text="INICIO   BIENVENIDO"
+            android:textAlignment="center"
+            android:textColor="#F1E9E9"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnClientes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/color1"
+            android:text="Ir a Clientes"
+            android:textStyle="bold"
+            app:icon="@drawable/account" />
+
+        <Button
+            android:id="@+id/btnAnimales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/color1"
+            android:text="Ir a Animales"
+            android:textStyle="bold"
+            app:icon="@drawable/dog" />
+
+
+        <Button
+            android:id="@+id/btnDoctores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/color1"
+            android:text="Ir a Doctores"
+            android:textStyle="bold"
+            app:icon="@drawable/doctor" />
+
+        <Button
+            android:id="@+id/btnHistorialClinico"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="80dp"
+            android:background="@drawable/button_background"
+            android:backgroundTint="@color/color1"
+            android:text="Ir a Historiales"
+            android:textStyle="bold"
+            app:icon="@drawable/doctor" />
+
+
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/color6"
+            android:text="Salir"
+            app:icon="@drawable/close_circle" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

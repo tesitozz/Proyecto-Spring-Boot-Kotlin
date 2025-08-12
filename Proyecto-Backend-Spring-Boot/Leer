@@ -1,0 +1,33 @@
+# Proyecto de Gestión de Clientes - Veterinaria
+
+## Descripción
+Este proyecto es una aplicación Android que permite la gestión de clientes para una veterinaria. Se utiliza Kotlin para el desarrollo tanto del frontend como del backend. La aplicación permite agregar, modificar, eliminar y ver detalles de los clientes.
+
+## Tecnologías Utilizadas
+- **Frontend (Android)**
+  - Kotlin
+  - Android SDK
+  - XML para diseño de vistas
+
+- **Backend (API REST)**
+  - Kotlin
+  - Spring Boot
+  - MySQL para almacenamiento de datos
+  - Retrofit para la comunicación cliente-servidor
+
+## Funcionalidades Principales
+- **Agregar Cliente**
+  - Permite registrar un nuevo cliente con su información básica (nombre, apellidos, DNI, género, información adicional).
+  - Los datos se validan antes de enviar al servidor.
+
+- **Modificar Cliente**
+  - Permite editar los detalles de un cliente existente.
+  - Interfaz amigable para modificar datos como nombre, apellidos, DNI, género y dirección.
+
+- **Eliminar Cliente**
+  - Permite eliminar un cliente de la base de datos.
+  - Los datos se actualizan automáticamente después de la eliminación.
+
+- **Lista de Clientes**
+  - Muestra una lista de todos los clientes registrados.
+  - Permite ver los detalles completos de cada cliente.
