@@ -26,7 +26,7 @@ Para revisar directamente el código principal:
 - **Android Studio**
 - **Consumo de APIs REST**
 - **RecyclerView y ViewBinding**
-- **Arquitectura MVC/MVVM (según corresponda)**
+- **Arquitectura MVC**
 
 ---
 
