@@ -3,6 +3,14 @@
 Este es un proyecto académico que integra **Spring Boot** para el backend y **Kotlin** en Android Studio para el frontend.  
 El objetivo es mostrar el consumo de APIs REST creadas en Java desde una aplicación Android.
 
+## 📂 Código fuente
+Para revisar directamente el código principal:
+
+- **Backend (Spring Boot)** → [Ver código](Proyecto-Backend-Spring-Boot/src/main/java)
+- **Frontend (Kotlin - Android)** → [Ver código](Proyecto-Front-End-Veterinaria/app/src/main/java)
+
+---
+
 ## 🚀 Tecnologías utilizadas
 
 ### Backend (Proyecto-Backend-Spring-Boot)
@@ -33,9 +41,3 @@ El objetivo es mostrar el consumo de APIs REST creadas en Java desde una aplicac
   - Listado dinámico de [entidad principal] usando datos de la API.
   - Formularios para crear/editar registros.
   - Manejo de respuestas y errores desde la API.
-
-## 📂 Código fuente
-Para revisar directamente el código principal:
-
-- **Backend (Spring Boot)** → [Ver código](Proyecto-Backend-Spring-Boot/src/main/java)
-- **Frontend (Kotlin - Android)** → [Ver código](Proyecto-Front-End-Veterinaria/app/src/main/java)
