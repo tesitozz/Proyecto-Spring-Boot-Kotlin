@@ -33,3 +33,9 @@ El objetivo es mostrar el consumo de APIs REST creadas en Java desde una aplicac
   - Listado dinámico de [entidad principal] usando datos de la API.
   - Formularios para crear/editar registros.
   - Manejo de respuestas y errores desde la API.
+
+## 📂 Código fuente
+Para revisar directamente el código principal:
+
+- **Backend (Spring Boot)** → [Ver código](Proyecto-Backend-Spring-Boot/src/main/java)
+- **Frontend (Kotlin - Android)** → [Ver código](Proyecto-Front-End-Veterinaria/app/src/main/java)
